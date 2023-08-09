@@ -2652,7 +2652,7 @@ input, select, textarea {
 					transition: transform 0.5s ease;
 					position: relative;
 					display: block;
-					width: 23em;
+					width: 21em;
 					border-radius: 4px;
 					flex-wrap: wrap;
 				}		
