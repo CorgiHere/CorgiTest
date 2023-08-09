@@ -2043,7 +2043,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		margin: -1em 0 2em -1em;
+		margin: -2em 0 -1em -1em;
 	}
 
 		ul.icons li {
@@ -2458,14 +2458,14 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 2px #585858;
 		color: #585858 !important;
 		cursor: pointer;
-		display: inline-block;
+		display: flex;
 		font-size: 0.8em;
 		font-weight: 900;
 		height: 3.5em;
 		letter-spacing: 0.35em;
 		line-height: 3.45em;
 		overflow: hidden;
-		padding: 0 1.25em 0 1.6em;
+		padding: 0 0 0 0;
 		text-align: center;
 		text-decoration: none;
 		text-overflow: ellipsis;
@@ -2572,7 +2572,6 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2581,8 +2580,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
-			position: relative;
-			width: calc(33.33333% - 2.5em);
+			position:relative;
+			width: calc(25% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
 
@@ -2618,7 +2617,7 @@ input, select, textarea {
 					height: 100%;
 					opacity: 1.0;
 					z-index: 1;
-					opacity: 0.8;
+					opacity: 0.5;
 				}
 
 				.tiles article > .image:after {
@@ -2634,7 +2633,6 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
@@ -2668,7 +2666,7 @@ input, select, textarea {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				padding: 1em;
+				padding: 1.5em;
 				border-radius: 4px;
 				border-bottom: 0;
 				color: #ffffff;
@@ -2709,25 +2707,7 @@ input, select, textarea {
 				background-color: #f2849e;
 			}
 
-			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
-			}
 
-			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
-
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
-			}
-
-			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
-			}
-
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
-			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
@@ -2738,7 +2718,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.4;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -2751,7 +2731,7 @@ input, select, textarea {
 			}
 
 		* + .tiles {
-			margin-top: 2em;
+			margin-top: -2em;
 		}
 
 		body.is-preload .tiles article {
@@ -2774,7 +2754,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(33.33333% - 1.25em);
+					width: calc(33.33% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -2829,7 +2809,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 4em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2855,8 +2835,8 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 4em;
+					height:4em;
 				}
 
 		#header nav {
@@ -3165,7 +3145,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 5em 0 6em 0 ;
+		padding: 2em 0 2em 0 ;
 		background-color: #f6f6f6;
 	}
 
@@ -3201,7 +3181,7 @@ input, select, textarea {
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 5em;
+				margin-top: 2em;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(88, 88, 88, 0.5);
@@ -3228,7 +3208,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 2em 0 2em 0 ;
 			}
 
 				#footer > .inner section:nth-child(1) {
