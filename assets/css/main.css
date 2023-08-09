@@ -2043,7 +2043,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-		margin: -2em 0 -1em -1em;
+		margin: -2em 0 2em -1em;
 	}
 
 		ul.icons li {
@@ -2754,7 +2754,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(33.33% - 1.25em);
+					width: calc(25% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
