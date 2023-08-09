@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -163,6 +163,7 @@ input, select, textarea {
 	}
 
 	h1 {
+		font-family: "Noto Sans TC";
 		font-size: 2.5em;
 		font-weight: 700;
 		line-height: 1.3;
