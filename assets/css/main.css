@@ -30,10 +30,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 article > intropic > .image{
-	width: 22em;
+	width: 18em;
 }
 article > intropic > .image img{
-	width: 21em;
+	width: 18em;
 	display: inline-block;
 }
 
