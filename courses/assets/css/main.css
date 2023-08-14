@@ -29,10 +29,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 article > intropic > .image{
+	height: 22em;
 	width: 22em;
 }
 article > intropic > .image img{
-	width: 21em;
+	height: 21em;
 	display: inline-block;
 }
 
