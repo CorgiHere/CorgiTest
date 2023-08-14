@@ -29,26 +29,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 article > intropic > .image{
-	height: 18em;
-	width: 18em;
+	height: 14em;
+	width: 14em;
 }
 article > intropic > .image img{
-	height: 15em;
+	height: 13em;
 	display: inline-block;
 }
 
 article > intropic > h4{
-	font-size: 0.9em;
+	font-size: 0.8em;
 	display: inline-block;
 	vertical-align: top;
 
 }
 
-@media screen and (max-width: 600px) {
-	article > intropic > h4{
-		font-size: 0.8em;
-	}
-}
 body {
 	line-height: 1;
 }
