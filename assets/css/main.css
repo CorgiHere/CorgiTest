@@ -2669,7 +2669,10 @@ input, select, textarea {
 				.tiles article > a > :last-child {
 					margin: 0;
 				}
-
+				.tiles article > a > .image img {
+					height: 75%;
+					display: block;
+				}
 				.tiles article > a h2 {
 					margin: 0;
 				}
