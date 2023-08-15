@@ -2694,13 +2694,18 @@ input, select, textarea {
 				background-color: #f2849e;
 			}
 
-
+			body:not(.is-touch) .tiles article:hover > .image {
+				-moz-transform: scale(1.1);
+				-webkit-transform: scale(1.1);
+				-ms-transform: scale(1.1);
+				transform: scale(1.1);
+			}
 
 			body:not(.is-touch) .tiles article:hover > a {
-				-moz-transform: scale(1.15);
-				-webkit-transform: scale(1.15);
-				-ms-transform: scale(1.15);
-				transform: scale(1.15);
+				-moz-transform: scale(1.1);
+				-webkit-transform: scale(1.1);
+				-ms-transform: scale(1.1);
+				transform: scale(1.1);
 				background-color: #c2ffd4;
 			}
 
