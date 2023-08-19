@@ -52,6 +52,13 @@ ol, ul {
 	list-style: none;
 }
 
+.image{
+	width: 100%;
+}
+
+.image img{
+	width: 100%;
+}
 blockquote, q {
 	quotes: none;
 }
