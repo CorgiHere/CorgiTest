@@ -35,6 +35,7 @@ article > intropic > .image{
 article > intropic > .image img{
 	height: 13em;
 	display: inline-block;
+	border-radius: 50%;
 }
 
 article > intropic > h4{
